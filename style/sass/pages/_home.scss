@@ -1,0 +1,39 @@
+// LOCATION
+
+.location {
+  width: 100%;
+  background-color: #fe0000;
+}
+
+.city {
+  @include flexMid;
+  width: 100%;
+  background-color: #eaeaea;
+  padding: 15px 0;
+  font-weight: 500;
+}
+
+.Paris {
+  position: relative;
+  i {
+    position: absolute;
+    left: -30px;
+    bottom: 1px;
+  }
+}
+
+.reservation {
+  @include flexMid;
+  width: 100%;
+  background-color: #f6f6f6;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 10px;
+  h1 {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  P {
+    margin-bottom: 25px;
+  }
+}
