@@ -1,0 +1,30 @@
+@media screen and (min-width: 993px) {
+  .reservation {
+    padding: 70px 20px;
+  }
+
+  .functioning {
+    padding: 70px 20px;
+  }
+  .functioning-container {
+    flex-direction: row;
+    // flex-wrap: wrap;
+  }
+  .restaurant-container {
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .restaurant-container {
+    flex-wrap: nowrap;
+  }
+
+  .functioning-container {
+    flex-direction: row;
+    // flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}

@@ -125,7 +125,13 @@
   width: 100%;
   @include flexMid;
   gap: 15px;
-  flex-direction: column;
+  // flex-direction: column;
+  flex-wrap: wrap;
+  a {
+    display: block;
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .restaurant-card {

@@ -7,8 +7,24 @@
 }
 
 body {
-  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-family: "Roboto", sans-serif;
+  align-items: center;
+  // overflow: hidden;
+  background-color: #ffffff;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1280px;
+  background-color: rgb(255, 255, 255);
 }
 
 // GENREAL IMPORT
@@ -22,3 +38,7 @@ body {
 // PAGES IMPORT
 
 @import "./sass/pages/home";
+
+// RESPONSIVE
+
+@import "./sass/media_querie";
