@@ -1,0 +1,21 @@
+// TOOLS
+
+@import "./sass/1-tools/variable";
+@import "./sass/1-tools/mixin";
+@import "./sass/1-tools/button";
+@import "./sass/1-tools/animation";
+
+// STRUCTURE
+
+@import "./sass/2-structure/general";
+@import "./sass/2-structure/header";
+@import "./sass/2-structure/footer";
+
+// PAGES
+
+@import "./sass/3-pages/home";
+@import "./sass/3-pages/la-palette-du-gout";
+
+// RESPONSIVE
+
+@import "./sass/4-responsive/media_querie";

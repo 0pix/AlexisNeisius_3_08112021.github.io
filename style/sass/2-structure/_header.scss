@@ -6,6 +6,15 @@ header {
   background-color: rgb(255, 255, 255);
   // max-width: 1200px;
   z-index: 1;
+  position: relative;
+  a {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    // top: 50%;
+    transform: translate(-50% -50%);
+  }
 }
 
 .logo {

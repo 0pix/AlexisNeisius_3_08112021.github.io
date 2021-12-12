@@ -26,19 +26,3 @@ main {
   max-width: 1280px;
   background-color: rgb(255, 255, 255);
 }
-
-// GENREAL IMPORT
-
-@import "./sass/variable";
-@import "./sass/mixin";
-@import "./sass/header";
-@import "./sass/button";
-@import "./sass/footer";
-
-// PAGES IMPORT
-
-@import "./sass/pages/home";
-
-// RESPONSIVE
-
-@import "./sass/media_querie";
