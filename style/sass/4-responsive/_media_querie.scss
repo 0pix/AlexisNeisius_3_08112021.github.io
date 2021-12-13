@@ -13,6 +13,20 @@
   .restaurant-container {
     flex-wrap: nowrap;
   }
+
+  .image-menu {
+    height: 300px;
+  }
+
+  .container-menu {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .menu-bloc {
+    width: 33%;
+    max-width: 400px;
+  }
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
@@ -23,6 +37,19 @@
   .functioning-container {
     flex-direction: row;
     // flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .image-menu {
+    height: 300px;
+  }
+
+  .container-menu {
+    flex-direction: column;
+  }
+
+  .menu-bloc {
+    max-width: 700px;
   }
 }
 
