@@ -625,6 +625,7 @@ footer a {
 
 .menu-title h2 {
   margin-bottom: 4px;
+  font-weight: 300;
 }
 
 .menu-title::after {
@@ -749,6 +750,11 @@ footer a {
           animation-delay: 0.5s;
 }
 
+.dl4 {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
 .fond {
   width: 100%;
   height: 100px;
@@ -795,6 +801,9 @@ footer a {
         -ms-flex-direction: row;
             flex-direction: row;
     gap: 15px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .menu-bloc {
     width: 33%;
