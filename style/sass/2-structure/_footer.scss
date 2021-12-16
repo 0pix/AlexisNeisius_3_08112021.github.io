@@ -34,3 +34,12 @@ footer {
     margin: 10px 0;
   }
 }
+
+.link {
+  &:hover a {
+    color: $primarycolor;
+  }
+  &:hover i {
+    color: $primarycolor;
+  }
+}
