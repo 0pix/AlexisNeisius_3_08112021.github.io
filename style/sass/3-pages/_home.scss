@@ -29,7 +29,7 @@
   flex-direction: column;
   text-align: center;
   padding: 40px 20px;
-  h1 {
+  h2 {
     margin-bottom: 10px;
     font-size: 25px;
   }
@@ -52,7 +52,6 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  // background-color: yellow;
   margin-bottom: 25px;
 }
 
@@ -125,7 +124,6 @@
   width: 100%;
   @include flexMid;
   gap: 15px;
-  // flex-direction: column;
   flex-wrap: wrap;
   a {
     display: block;
@@ -152,7 +150,6 @@
       object-fit: cover;
     }
     .nouveau {
-      // display: block;
       position: absolute;
       top: 15px;
       right: 15px;
@@ -176,16 +173,5 @@
       font-size: 17px;
       margin-bottom: 3px;
     }
-    // i {
-    //   font-size: 22px;
-    //   color: rgba(255, 255, 255, 0);
-    //   -webkit-text-stroke: 1px black;
-    //   &:hover {
-    //     background: -webkit-linear-gradient($primarycolor, $secondarycolor);
-    //     -webkit-background-clip: text;
-    //     -webkit-text-fill-color: transparent;
-    //     -webkit-text-stroke: 0px black;
-    //   }
-    // }
   }
 }
