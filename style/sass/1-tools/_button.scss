@@ -46,23 +46,11 @@
   }
 }
 
-.heart-home {
-  font-size: 22px;
-  color: #ffffff;
-  -webkit-text-stroke: 1px black;
-  position: absolute;
-  transition: 1s;
-  &:hover {
-    opacity: 0;
-  }
-}
-
 .heart-purple {
   font-size: 22px;
   background: -webkit-linear-gradient($primarycolor, $secondarycolor);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 0px black;
   cursor: pointer;
   position: absolute;
 }

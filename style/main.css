@@ -47,25 +47,11 @@
   opacity: 0;
 }
 
-.heart-home {
-  font-size: 22px;
-  color: #ffffff;
-  -webkit-text-stroke: 1px black;
-  position: absolute;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.heart-home:hover {
-  opacity: 0;
-}
-
 .heart-purple {
   font-size: 22px;
   background: -webkit-linear-gradient(#9356dc, #ff79da);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 0px black;
   cursor: pointer;
   position: absolute;
 }
@@ -111,8 +97,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-animation: loaderOpacity;
-          animation: loaderOpacity;
+  -webkit-animation: loaderIndex;
+          animation: loaderIndex;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
   -webkit-animation-fill-mode: both;
@@ -134,7 +120,7 @@
   position: relative;
 }
 
-.preloader .img .red-img {
+.preloader .img .purple-img {
   position: absolute;
   left: 0;
   width: 0%;
@@ -156,25 +142,13 @@
   z-index: 102;
 }
 
-@-webkit-keyframes loaderOpacity {
-  0% {
-    opacity: 1;
-  }
-  99% {
-    opacity: 1;
-  }
+@-webkit-keyframes loaderIndex {
   100% {
     z-index: -10;
   }
 }
 
-@keyframes loaderOpacity {
-  0% {
-    opacity: 1;
-  }
-  99% {
-    opacity: 1;
-  }
+@keyframes loaderIndex {
   100% {
     z-index: -10;
   }
